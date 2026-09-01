@@ -1,26 +1,26 @@
 class D1v < Formula
   desc "Command-line interface for d1v.ai"
   homepage "https://www.d1v.ai"
-  version "0.1.30"
+  version "0.1.36"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.30/d1v-aarch64-apple-darwin.tar.gz"
-      sha256 "3467f81864fd9f095f2863cc922287d15f1166cc1522af77db888a4b368af087"
+      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.36/d1v-aarch64-apple-darwin.tar.gz"
+      sha256 "472418ffb14a9db81933bfbab95d2798c8859a70e1070e69ee8594912d5c0acf"
     else
-      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.30/d1v-x86_64-apple-darwin.tar.gz"
-      sha256 "5dadb2485e2b0c7e91247d01d54dd8200f51d94cb769dccc5414b9bb651e884f"
+      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.36/d1v-x86_64-apple-darwin.tar.gz"
+      sha256 "51aac52666fbf24a1e4609462e33f636f95e8a40a6bc615c44a7ad8c2f01c809"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.30/d1v-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "57f7beb01b4a7ff84ef8854afad11ffb70586e8489169bbd9a89379fc88d1d9f"
+      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.36/d1v-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3f7112b8b4fb48af48a97cd298b1429a6d51a2f9bc3765156176c0cf847aa000"
     else
-      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.30/d1v-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6c92f83fe0af10a853513554f6bcb0e1fe7bb707b4221d300a95eddbf230ad81"
+      url "https://github.com/d1vai/d1v-cli/releases/download/v0.1.36/d1v-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2e868b992238b8777e827fa4d754226edaf699c3a6390f217c5e0b0623fa2b1e"
     end
   end
 
